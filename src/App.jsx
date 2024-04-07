@@ -23,7 +23,7 @@ export default function App(){
       <aside className="bg-white w-4/5 h-screen flex justify-center items-center flex-col">
         <h1 className="text-3xl font-bold">Atlas - Infrastructure Manager</h1>
         <img src={logo} className="m-8"/>
-        <h4 className="text-sm font-thin">Manage your Infrastructure in a way you never seen before.</h4>
+        <h4 className="text-l font-thin">Manage your Infrastructure in a way you never seen before.</h4>
       </aside>
       <aside className="bg-black w-3/5 h-screen flex justify-center items-center">
         <Card className="bg-black border-0 w-4/6">
@@ -48,19 +48,19 @@ export default function App(){
             <Button className="w-full my-4 bg-purple-700 font-bold" >Sign In</Button>
           </CardContent>
           <CardFooter className="flex flex-col">
-            <div>
-              <img src={horizontalLine} className="inline w-36 h-3"/>
-              <span className="text-white m-auto inline m-6 font-bold">or</span>
-              <img src={horizontalLine} className="inline w-36 h-3"/>
+            <div className="flex justify-around items-center">
+              <img src={horizontalLine} className="w-2/6 h-3"/>
+              <span className="text-white font-bold">or</span>
+              <img src={horizontalLine} className="w-2/6 h-3"/>
             </div>
             <div className="flex justify-between w-full my-8"> 
-              <Button className="w-28 h-12 bg-white">
+              <Button className="w-1/4 h-12 bg-white">
                 <img src={googleIcon} className="w-14 h-14"/>
               </Button>
-              <Button className="w-28 h-12 bg-white">
+              <Button className="w-1/4 h-12 bg-white">
                 <img src={githubIcon} className="w-10 h-10"/>
               </Button>
-              <Button className="w-28 h-12 bg-white">
+              <Button className="w-1/4 h-12 bg-white">
                 <img src={xIcon} className="w-8 h-18"/>
               </Button>
             </div>
