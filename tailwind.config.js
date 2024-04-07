@@ -14,7 +14,11 @@ module.exports = {
       padding: "2rem",
       screens: {
         "2xl": "1400px",
-      },
+      }
+    },
+    fontFamily: {
+      "ibmPlexSans":["ibmPlexSans"],
+      "ibmPlexMono":["ibmPlexMono"]
     },
     extend: {
       keyframes: {
@@ -30,6 +34,10 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      backgroundImage: {
+        'lock': "url('./assets/lock.svg')",
+        'mail': "url('./assets/mail.svg')"
       },
     },
   },
