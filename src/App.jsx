@@ -3,6 +3,7 @@ import logo from './assets/logo.svg';
 import googleIcon from './assets/google-icon.webp';
 import githubIcon from './assets/github-icon.png';
 import xIcon from './assets/x-icon.png';
+import horizontalLine from './assets/horizontal-line.svg';
 import {
   Card,
   CardContent,
@@ -47,7 +48,11 @@ export default function App(){
             <Button className="w-full my-4 bg-purple-700 font-bold" >Sign In</Button>
           </CardContent>
           <CardFooter className="flex flex-col">
-            <span className="text-white m-auto">or</span>
+            <div>
+              <img src={horizontalLine} className="inline w-36 h-3"/>
+              <span className="text-white m-auto inline m-6 font-bold">or</span>
+              <img src={horizontalLine} className="inline w-36 h-3"/>
+            </div>
             <div className="flex justify-between w-full my-8"> 
               <Button className="w-28 h-12 bg-white">
                 <img src={googleIcon} className="w-14 h-14"/>
